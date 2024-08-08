@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetWell - Bienestar para Mascotas</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="estilo/estilo.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Barra de navegación en el encabezado -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">PetWell</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(actual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Características</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#register">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección Principal -->
+  <header class="hero-bg">
+    <div class="container">
+      <h1 class="display-4">Cuida de tus Mascotas con PetWell</h1>
+      <p class="lead">La aplicación definitiva para el bienestar de tus mascotas: recordatorios de vacunas, consejos de nutrición y mucho más.</p>
+      <a href="#" class="btn btn-primary btn-lg mx-2">Descargar en Google Play <img src="images/images (1).png" alt="" class="btn-img"></a>
+      <a href="#" class="btn btn-secondary btn-lg mx-2">Descargar en App Store <img src="images/png-transparent-apple-logo-apple-watch-logo-apple-logo-heart-logo-computer-wallpaper-thumbnail.png" alt="" class="btn-img"></a>
+    </div>
+  </header>
+
+  <!-- Sección de Características -->
+  <section id="features" class="py-5">
+    <div class="container content-section">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div class="feature-icon mb-3"><i class="fas fa-calendar-check"></i></div>
+          <h3>Recordatorios de Vacunas</h3>
+          <p>Recibe notificaciones para mantener al día las vacunas de tu mascota y garantizar su salud.</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature-icon mb-3"><i class="fas fa-utensils"></i></div>
+          <h3>Consejos de Nutrición</h3>
+          <p>Obtén recomendaciones personalizadas para una dieta saludable y adecuada para tu mascota.</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature-icon mb-3"><i class="fas fa-users"></i></div>
+          <h3>Comunidad de Dueños</h3>
+          <p>Conéctate con otros dueños de mascotas, comparte experiencias y encuentra apoyo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Testimonios -->
+  <section id="testimonials" class="py-5">
+    <div class="container content-section">
+      <h2 class="text-center mb-4">Lo que Dicen Nuestros Usuarios</h2>
+      <div class="row testimonials-text">
+        <div class="col-md-4 text-center">
+          <img src="images/mascotas-perros-mascotas_515959375_158488465_1706x960.png" alt="Usuario 1" class="testimonial-photo mb-3">
+          <h5>María González</h5>
+          <p>"PetWell ha transformado de manera significativa la forma en que cuido a mi perro. La aplicación no solo me ayuda a llevar un seguimiento detallado de sus vacunas y tratamientos, sino que también me envía recordatorios puntuales para que no olvide ninguna cita importante."</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="images/cat-watching-2021-08-26-15-42-24-utc.jpg" alt="Usuario 2" class="testimonial-photo mb-3">
+          <h5>Juan Pérez</h5>
+          <p>"os consejos de nutrición que ofrece PetWell han sido increíblemente útiles. Gracias a las recomendaciones personalizadas sobre la dieta y los hábitos alimenticios, he podido ajustar la alimentación de mi perro de manera óptima."</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="images/diamante-mandarin.jpg" alt="Usuario 3" class="testimonial-photo mb-3">
+          <h5>Ana Martínez</h5>
+          <p>"La comunidad de PetWell es realmente increíble. A través de la aplicación, he tenido la oportunidad de conectar con otros amantes de las mascotas y hacer muchos amigos que comparten mi pasión por el cuidado animal. Además, la interacción con otros miembros de la comunidad me ha permitido aprender valiosos consejos y trucos sobre el cuidado de mascotas que no había conocido antes."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Registro -->
+  <section id="register" class="py-5">
+    <div class="container content-section">
+      <h2 class="text-center mb-4">¡Suscríbete para más Información!</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu Nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="Tu Correo Electrónico">
+        </div>
+        <div class="form-group">
+          <label for="pet-type">Tipo de Mascota</label>
+          <select class="form-control" id="pet-type">
+            <option value="">Selecciona una opción</option>
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="pájaros">Pájaros</option>
+            <option value="peces">Peces</option>
+            <option value="hámsters">Hámsters</option>
+            <option value="conejos">Conejos</option>
+            <option value="tortugas">Tortugas</option>
+            <option value="lagartijas">Lagartijas</option>
+            <option value="camaleones">Camaleones</option>
+            <option value="serpientes">Serpientes</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Suscribirse</button>
+      </form>
+    </div>
+  </section>
+
+<!-- Pie de Página -->
+<footer id="contact" class="bg-dark py-4 text-center">
+  <div class="container">
+    <div class="row">
+      <!-- Sección de Contacto -->
+      <div class="col-md-6">
+        <h5 class="text-light">Contáctanos:</h5>
+        <p class="text-light">Email: <a href="petwell@petwell.com" class="text-light">petwell@petwell.com</a></p>
+        <p class="text-light">Teléfono: <a href="tel:+57-382-2389519" class="text-light">+57-382-2389519</a></p>
+        <div class="mt-3">
+          <a href="#" class="btn btn-outline-light mx-1">
+            <img src="images/png-clipart-computer-icons-facebook-logo-graphics-facebook-logo-grey-thumbnail.png" alt="Facebook" class="social-icon">
+          </a>
+          <a href="#" class="btn btn-outline-light mx-1">
+            <img src="images/8aea5bc67b5d28aa216ad49dd583a35d.jpg" alt="Twitter" class="social-icon">
+          </a>
+          <a href="#" class="btn btn-outline-light mx-1">
+            <img src="images\logo-instagram-3238899_1280.png" alt="Instagram" class="social-icon">
+          </a>
+          <a href="https://wa.me/1234567890" class="btn btn-outline-light mx-1" target="_blank">
+            <img src="images/f2469442ef64eeaa549a050c3599a623.jpg" alt="WhatsApp" class="social-icon">
+          </a>
+          <a href="mailto:info@petwell.com" class="btn btn-outline-light mx-1">
+            <img src="images\icone-gmail-logo-png-grise.png" alt="Email" class="social-icon">
+          </a>
+        </div>
+      </div>
+      <!-- Sección de Términos y Condiciones -->
+      <div class="col-md-6">
+        <h5 class="text-light">Términos y Condiciones</h5>
+        <p class="text-light"><a href="#" class="text-light">Leer Términos y Condiciones</a></p>
+        <p class="text-light"><a href="#" class="text-light">Política de Privacidad</a></p>
+        <p class="text-light"><a href="#" class="text-light">Política de Cookies</a></p>
+      </div>
+    </div>
+    <p class="mt-4 mb-0 text-light">© 2024 PetWell. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
